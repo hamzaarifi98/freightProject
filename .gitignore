@@ -1,0 +1,6 @@
+cat > .gitignore << 'EOF'
+.ipynb_checkpoints/
+__pycache__/
+.deepeval/
+*.pyc
+EOF
