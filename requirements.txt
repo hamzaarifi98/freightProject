@@ -6,4 +6,3 @@ scipy
 lightgbm
 xgboost
 joblib
-pathlib

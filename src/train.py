@@ -4,7 +4,7 @@ Train the final LightGBM model and save it with its preprocessing values.
 Run from anywhere:
     python src/train.py
 
-Hyperparameters come from the tuning in notebook/train.ipynb
+Hyperparameters come from the tuning in src/train.ipynb
 (randomized search with time-series cross-validation).
 """
 from pathlib import Path
