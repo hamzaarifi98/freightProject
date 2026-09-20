@@ -168,9 +168,6 @@ def load_and_prepare(folder="data", test_share=0.2, verbose=True):
         "X_full": X_full, "y_full": y_full,
         "X_val": X_val, "X_chart": X_chart,
         "train": train, "test": test,       # cleaned frames, for baseline and evaluation
-        "final_fill": final_fill,           # preprocessing values for saving with the model
-        "coords": coords,
-        "daily_index": daily_index,
     }
 
 
